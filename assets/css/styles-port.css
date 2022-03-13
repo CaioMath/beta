@@ -1,0 +1,290 @@
+.pag-portfolio{
+    height: auto;
+    background-color: #232533;
+    padding: 20px 0 0 0;
+}
+
+#Front, #UXUI, #IdVisual{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pag-portfolio .btnvoltar{
+    background: #fec158;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    opacity: 0.7;
+    margin-top: 0px;
+    z-index: 13;
+    margin-left: -5px;
+}
+.pag-portfolio .btnvoltar p{
+    color: #eceaed;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.pag-slider1{
+    width: 80vw;
+    height: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: #232533;
+    padding-inline: 5px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 90%);
+}
+.pag-slider1 .slide, .pag-slider2 .slide{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pag-portfolio .carousel-control-next, .pag-portfolio .carousel-control-prev{
+    display: none;
+}
+.pag-slider1 .carousel-indicators li{
+    background-color: rgba(254, 193, 88, 0.5);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pag-slider1 .carousel-indicators .active{
+    background-color: rgba(254, 193, 88, 1);
+}
+.pag-portfolio .intro-ola{
+    text-align: center;
+    font-size: 30px;
+    color: #6f717f;
+    opacity: 0.3;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 90px;
+}
+.pag-slider1 .modal-intro-title{
+    color: #fec158;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Outfit", sans-serif;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.pag-slider1 .modal-introp{
+    color: #eceaed;
+    font-size: 14px;
+    width: 100%;
+}
+
+.pag-slider2{
+    width: 80vw;
+    height: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fec158;
+    padding-inline: 15px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 90%);
+}
+.pag-slider2 .carousel-indicators li{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pag-slider2 .carousel-indicators .active{
+    background-color: rgba(255, 255, 255, 1);
+}
+.pag-slider2 h1{
+    font-weight: 600;
+    color: #eceaed;
+    font-size: 1.85rem;
+}
+.pag-portfolio a{
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.pag-slider2 .callout{
+    font-size: 80px;
+    line-height: 70px;
+    text-align: right;
+    opacity: 0.09;
+    color: #232533;
+}
+.pag-slider2 .text-center{
+    margin-top: -20%;
+}
+.pag-portfolio #groupPortfolio{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.pag-portfolio .box1{
+    background: #323445;
+    padding-top: 40px;
+}
+.pag-portfolio .job1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.pag-portfolio .vertical-index{
+    font-size: 18px;
+    color: #fec158;
+    line-height: 25px;
+    position: absolute;
+    margin-top: -30px;
+    opacity: 0.4;
+    text-align: center;
+}
+.pag-portfolio .Jobdescr{
+    color: #eceaed;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 30px 0;
+}
+
+.pag-portfolio .Jobdescr a{
+    color: #fec158;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 379px) and (max-width: 470px){
+    .pag-slider1 .modal-introp{
+        padding-inline: 15px;
+    }
+    .pag-slider1 .modal-intro-title{
+        font-size: 22px;
+    }
+    .pag-slider2 h1{
+        font-size: 2.4rem;
+    }
+    .pag-slider2 .text-center {
+        margin-top: -10%;
+    }
+    .pag-slider2 .callout{
+        font-size: 105px;
+        line-height: 90px;
+    }
+    .pag-portfolio .Jobdescr{
+        font-size: 15px;
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 767px){
+    .pag-slider1{
+        width: 65vw;
+        height: 65vw;
+    }
+    .pag-slider2{
+        width: 65vw;
+        height: 65vw;
+    }
+    .pag-slider1 .modal-introp{
+        padding-inline: 20px;
+    }
+    .pag-slider1 .modal-intro-title{
+        font-size: 30px;
+    }
+    .pag-slider2 h1{
+        font-size: 2.4rem;
+    }
+    .pag-slider2 .text-center {
+        margin-top: -10%;
+    }
+    .pag-slider2 .callout{
+        font-size: 115px;
+        line-height: 110px;
+    }
+    .pag-portfolio .Jobdescr{
+        font-size: 15px;
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px){
+    .pag-slider1{
+        width: 400px;
+        height: 400px;
+    }
+    .pag-slider2{
+        width: 400px;
+        height: 400px;
+    }
+    .pag-slider1 .modal-introp{
+        padding-inline: 20px;
+        font-size: 16px;
+    }
+    .pag-slider1 .modal-intro-title{
+        font-size: 30px;
+        margin-top: 25%;
+    }
+    .pag-slider2 h1{
+        font-size: 3rem;
+    }
+    .pag-slider2 .text-center {
+        margin-top: -10%;
+    }
+    .pag-slider2 .callout{
+        font-size: 115px;
+        line-height: 110px;
+    }
+    .pag-portfolio .Jobdescr{
+        font-size: 15px;
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 1101px){
+    .pag-portfolio .linebox{
+        display: flex;
+    }
+    .pag-slider1{
+        width: 380px;
+        height: 380px;
+        margin: 0 20px 0 auto;
+    }
+    .pag-slider2{
+        width: 380px;
+        margin: 0 auto 0 20px;
+        height: 380px;
+    }
+    .pag-portfolio .intro-ola{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+    .pag-slider1 .modal-introp{
+        padding-inline: 20px;
+        font-size: 14px;
+    }
+    .pag-slider1 .modal-intro-title{
+        font-size: 30px;
+        margin-top: 25%;
+    }
+    .pag-slider2 h1{
+        font-size: 2.1rem;
+    }
+    .pag-slider2 .text-center {
+        margin-top: 0;
+    }
+    .pag-slider2 .callout{
+        font-size: 65px;
+        line-height: 125px;
+        opacity: 0.05;
+        text-align: center;
+    }
+    .pag-portfolio .Jobdescr{
+        font-size: 15px;
+        padding: 30px 0;
+    }
+}
+

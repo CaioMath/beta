@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caio Mathe - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/flickity.css" media="screen">
+  <link rel="stylesheet" href="/assets/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap-grid.min.css.map">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles-port.css">
+  <link href="/assets/fontawesome-free-6.0.0-beta3-web/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="pag-portfolio">
+    <div class="btnvoltar">
+      <a href="/index.html"><p>voltar</p></a>
+    </div>
+    <div class="intro-ola">
+      <p>Bem-vindo(a)</p>
+    </div>
+    <div class="linebox">
+      <div class="pag-slider1">
+        <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel1" data-slide-to="1"></li>
+            <li data-target="#carousel1" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="text-center mt-5">
+                <div class="modal-intro-title">
+                  <p>Full</p>
+                </div>
+                <div class="modal-introp">
+                  <p>São projetos onde participei de todas as etapas do projeto, geralmente passando por idealização, planejamento, desenvovimento e finalização.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="text-center mt-5">
+                <div class="modal-intro-title">
+                  <p>Code</p>
+                </div>
+                <div class="modal-introp">
+                  <p>Como o nome sugere, são aqueles projetos onde atuei como desenvolvedor web, seja como dev-freelancer ou como
+                    desenvolvedor da Agência Revelare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="text-center mt-5">
+                <div class="modal-intro-title">
+                  <p>Visual</p>
+                </div>
+                <div class="modal-introp">
+                  <p>Estes trabalhos se referem a indentidade visual e suas variações, incluindo jobs em design e até mesmo atividaddes em social media .</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="pag-slider2">
+        <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel2" data-slide-to="1"></li>
+            <li data-target="#carousel2" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-100 h-100">
+                <a data-toggle="collapse" href="#Front" role="button" aria-expanded="false" aria-controls="collapse">
+                  <p class="callout">Clique aqui</p>
+                </a>
+
+                <div class="text-center">
+                  <div class="pt-5">
+                    <a data-toggle="collapse" href="#Front" role="button" aria-expanded="false" aria-controls="collapse"><h1>Front-end</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a data-toggle="collapse" href="#UXUI" role="button" aria-expanded="false" aria-controls="collapse">
+                <p class="callout">Clique aqui</p>
+              </a>
+              <div class="text-center">
+                <div class="pt-5">
+                  <a data-toggle="collapse" href="#UXUI" role="button" aria-expanded="false" aria-controls="collapse"><h1>UX/UI</h1></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a data-toggle="collapse" href="#IdVisual" role="button" aria-expanded="false" aria-controls="collapse">
+                <p class="callout">Clique aqui</p>
+              </a>
+              <div class="text-center">
+                <div class="pt-5">
+                  <a data-toggle="collapse" href="#IdVisual" role="button" aria-expanded="false" aria-controls="collapse"><h1>Identidade Visual</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="groupPortfolio">
+      <!-- COLLAPSE PARA FRONT-END -->
+
+      <div class="row collapse container" id="Front" data-parent="#groupPortfolio">
+        <div class="col-12 col-xl-6 box1">
+          <p class="vertical-index">F<br>R<br>O<br>N<br>T<br>-<br>E<br>N<br>D</p>
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobFront1" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case1.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">vipservicos<br>.com.br</p>
+                    <p id="jobwork">Code</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse container-fluid d-xl-none" id="JobFront1" data-parent="#Front">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>
+                O Grupo VIP é um conglomerado de soluções em diversos seguimentos para empresas de diferentes tamanhos. Em sua visão a qualidade está priorizada, desta forma, o projeto do site institucinal relevante serviu para reafirmar esse ponto.  
+              </p>
+              <p>Neste site estive realizando algumas animações através de javascript e fazendo toda a configuração de multi-idioma com o Lang do Laravel.</p>
+              <p>Foi uma boa experiência ser o desenvolvedor Front-end deste projeto na Agência Revelare.</p>
+              <p>
+                O site está disponível <a href="https://vipservicos.com.br" target="_blank">aqui</a>.
+              </p>
+            </div>>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 box1">
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobFront2" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case2.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">viprobotica<br>.com.br</p>
+                    <p id="jobwork">Code</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-none d-xl-block">
+          <div class="collapse container-fluid" id="JobFront1" data-parent="#Front">
+            <div class="container">
+              <div class="Jobdescr">
+                <p>
+                  O Grupo VIP é um conglomerado de soluções em diversos seguimentos para empresas de diferentes tamanhos. Em sua visão a qualidade está priorizada, desta forma, o projeto do site institucinal relevante serviu para reafirmar esse ponto.  
+                </p>
+                <p>Neste site estive realizando algumas animações através de javascript e fazendo toda a configuração de multi-idioma com o Lang do Laravel.</p>
+                <p>Foi uma boa experiência ser o desenvolvedor Front-end deste projeto na Agência Revelare.</p>
+                <p>
+                  O site está disponível <a href="https://vipservicos.com.br" target="_blank">aqui</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse container-fluid" id="JobFront2" data-parent="#Front">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>A VIP Soluções Robóticas é uma empresa especialista em robotização e automação de processos industriais. </p>
+              <p>Neste projeto desenvolvi o front-end e fiz o back-end da configuração do formulário de contato usando o framework Laravel. Foi um site muito agradável de se programar devido ao layout "limpo" e objetivo.</p>
+              <p>
+                O site está disponível <a href="https://viprobotica.com.br" target="_blank">aqui</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 box1">
+          <div class="col mb-5">
+            <a data-toggle="collapse" href="#JobFront3" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case4.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">quintalnutryh<br>.com.br</p>
+                    <p id="jobwork">Code</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse container-fluid d-xl-none" id="JobFront3" data-parent="#Front">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>O Quintal nutryh é um restaurante paulistano que vende nutrição e praticidade com seus itens congelados.</p>
+              <p>Este projeto foi de programação simples e rápida. Além do front, também estive configurando a newsletter do site.</p>
+              <p>
+                O site está disponível <a href="https://quintalnutryh.com.br" target="_blank">aqui</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 box1">
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobFront4" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case5.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">Lizamor<br>- landing</p>
+                    <p id="jobwork">Code</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-none d-xl-block">
+          <div class="collapse container-fluid" id="JobFront3" data-parent="#Front">
+            <div class="container">
+              <div class="Jobdescr">
+                <p>O Quintal Nutryh é um restaurante paulistano que vende nutrição e praticidade com seus itens congelados.</p>
+                <p>Este projeto foi de programação simples e rápida. Além do front, também estive configurando a newsletter do site.</p>
+                <p>
+                  O site está disponível <a href="https://quintalnutryh.com.br" target="_blank">aqui</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse container-fluid" id="JobFront4" data-parent="#Front">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>A Lizamor Boutique é uma representante autorizada da Dela More Ligerie.</p>
+              <p>Neste projeto fiz a programação front-end desta landing page de revenda conforme solicitado pela Agência Revelare.</p>
+              <p>
+                O site está disponível <a href="https://lizamor.com.br/landing/revenda/" target="_blank">aqui</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+       
+          
+      </div>
+
+      <!-- COLLAPSE PARA UX/UI -->
+
+      <div class="row collapse container" id="UXUI" data-parent="#groupPortfolio">
+        <div class="col-12 box1">
+          <p class="vertical-index">U<br>X<br>/<br>U<br>I</p>
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobUser1" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case6.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">OnCompass<br>.com</p>
+                    <p id="jobwork">Full</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse container-fluid" id="JobUser1" data-parent="#UXUI">
+          <div class="container">
+            <p class="Jobdescr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam! Sit, id
+              repudiandae libero repellat beatae autem incidunt recusandae veniam molestiae tenetur ex necessitatibus a
+              fugiat amet placeat quaerat excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              odit aspernatur molestias dolores doloribus! Eaque nam ipsam ea cumque recusandae voluptatem. Rem, ullam?
+              Illum fugit doloremque harum ea, labore esse.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLLAPSE PARA VISUAL -->
+
+      <div class="row collapse container" id="IdVisual" data-parent="#groupPortfolio">
+        <div class="col-12 col-xl-6 box1">
+          <p class="vertical-index">I<br>D<br>.<br>V<br>I<br>S<br>U<br>A<br>L</p>
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobVisual1" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case7.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">Este portfólio!</p>
+                    <p id="jobwork">Full</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse container-fluid d-xl-none" id="JobVisual1" data-parent="#IdVisual">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>Desenvolvi este portfólio me baseando em algumas convenções validadas para "sites-portfolio". No entanto, busquei criar um identidade agradável e uma boa dinâmica para apresentar as informações.</p>
+              <p>Por exemplo, a seção "Estudos" e esta página "Portfolio" eu desenhei cada elemento visando uma boa experência de interface e logo, de usuário.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 box1">
+          <div class="mb-5">
+            <a data-toggle="collapse" href="#JobVisual2" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: none;">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">Pêssego Coleções</p>
+                    <p id="jobwork">Visual</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-none d-xl-block">
+          <div class="collapse container-fluid" id="JobVisual1" data-parent="#IdVisual">
+            <div class="container">
+              <div class="Jobdescr">
+                <p>Desenvolvi este portfólio me baseando em algumas convenções validadas para "sites-portfolio". No entanto, busquei criar um identidade agradável e uma boa dinâmica para apresentar as informações.</p>
+                <p>Por exemplo, a seção "Estudos" e esta página "Portfolio" eu desenhei cada elemento visando uma boa experência de interface e logo, de usuário.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse container-fluid" id="JobVisual2" data-parent="#IdVisual">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>A Pessêgo Coleções é uma loja de venda e revenda de Lengerie que preza pela diversidade de opções e boa qualidade em suas peças.</p>
+              <p>Neste projeto foi me solicitado a criação da Logo da marca e conteúdos gráficos para serem usados nas redes sociais da loja.</p>
+              <p>Segue alguns deles:</p>
+              <p>Paleta de cores:</p>
+              <p>Este foi um projeto interessante de comandar e uma otima experência e identidade visual.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 box1">
+          <div class="col mb-5">
+            <a data-toggle="collapse" href="#JobVisual3" role="button" aria-expanded="false" aria-controls="collapse">
+              <div class="job1" style="background-image: url(/assets/imgs/case3.png);">
+                <div class="coverj">
+                  <div class="trij">
+                    <p id="jobtitle">GM Drinks</p>
+                    <p id="jobwork">Full</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse container-fluid" id="JobVisual3" data-parent="#IdVisual">
+          <div class="container">
+            <div class="Jobdescr">
+              <p>
+                GM Drinks é um espaço onde o foco é servir drinks com excelência.
+              </p>
+              <p>
+                Neste projeto de cardápio desenvolvi, com base nas referências que recebi do solicitante, um layout intuitivo e que transmitisse uma atmosfera medieval- que é a temática do bar. A tipografia, as cores e os elementos selecionei a partir dessa premissa e juntos formaram um cardápio uniforme e agradável.
+              </p>
+              <p>
+                Este site possui somente a versão mobile uma vez que o intuito do solicitante era disponibila-lo através de um QR Code.
+              </p>
+              <p>GM Drinks foi um projeto enxuto, porém conseguimos criar um visual interessante e sólido.</p>
+              <p>
+                O site está disponível <a href="https://gmdrinks.github.io/cardapio/" target="_blank">aqui</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  <footer class="container-fluid footer">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-4 offset-lg-1">
+          <div class="mainp mb-4 mt-2">
+            Iniciando um projeto?<br>Vamos conversar!
+          </div>
+          <div class="nomainp">
+            Entre em contato e me apresente sua ideia ou projeto, esteja ele em qualquer fase de
+            desenvolviemnto, podemos trabalhar juntos.
+          </div>
+          <div class="whatsme my-4" href="https://wa.me/5514988046442" target="_blank">
+            <a href="https://wa.me/5514988046442" target="_blank">contato</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 offset-md-4 offset-lg-0 col-lg-3 endp">
+          <div class="lastp">
+            <p><strong>Isso é tudo,</strong> obrigado e volte sempre!</p>
+          </div>
+        </div>
+        <div class="col offset-6 offset-md-0 col-md-3 col-lg-4 iconsfooter text-center mt-3">
+          <div class="nwtop d-flex">
+            <a href="#"><i class="fab fa-github-alt c3"></i></a>
+            <a href="#" class="mx-4"><i class="fab fa-instagram c3"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in c3"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  <script src="/assets/js/jQuery.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js.map"></script>
+  <script src="/assets/js/javascript.js"></script>
+  <script src="/assets/js/flickity.pkgd.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.js.map"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js.map"></script>
+  <script src="/assets/js/bootstrap.min.js.map"></script>
+</body>
+
+</html>
